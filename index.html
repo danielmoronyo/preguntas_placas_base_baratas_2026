@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SOCKET CERO · El juego del taller de placas base</title>
+    <meta
+      name="description"
+      content="Juego de montaje y decisión rápida con las 4 placas base más baratas de PcComponentes: Gigabyte A520M K V2, ASUS Prime A520M-K, Gigabyte H610M K DDR4 y Gigabyte H610M K V2 DDR5."
+    />
+    <meta name="theme-color" content="#04100d" />
+    <link rel="icon" type="image/svg+xml" href="img/logo.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- fondo de circuito impreso -->
+    <div class="pcb-bg" aria-hidden="true">
+      <div class="pcb-grid"></div>
+      <img class="pcb-traces" src="img/pcb-background.svg" alt="" />
+      <div class="pcb-vignette"></div>
+    </div>
+
+    <!-- ---------- cabecera ---------- -->
+    <header class="site-header">
+      <div class="container header-row">
+        <a href="#inicio" class="brand">
+          <span class="brand-logo"><img src="img/logo.svg" alt="" width="22" height="22" /><span class="brand-led led"></span></span>
+          <span class="brand-text">
+            <span class="brand-name">Socket cero</span>
+            <span class="brand-sub">juego de taller · 4 placas</span>
+          </span>
+        </a>
+
+        <nav class="nav nav-desktop" aria-label="Secciones">
+          <a class="nav-link" href="#taller"><span data-icon="cpu"></span>Taller</a>
+          <a class="nav-link" href="#duelo"><span data-icon="flame"></span>Duelo</a>
+          <a class="nav-link" href="#fichas"><span data-icon="grid"></span>Fichas</a>
+          <a class="nav-link" href="#comparador"><span data-icon="layers"></span>Comparador</a>
+        </nav>
+
+        <button type="button" id="sound-btn" class="icon-btn" aria-label="Silenciar"></button>
+      </div>
+
+      <nav class="nav nav-mobile" aria-label="Secciones">
+        <a class="nav-link" href="#taller"><span data-icon="cpu"></span>Taller</a>
+        <a class="nav-link" href="#duelo"><span data-icon="flame"></span>Duelo</a>
+        <a class="nav-link" href="#fichas"><span data-icon="grid"></span>Fichas</a>
+        <a class="nav-link" href="#comparador"><span data-icon="layers"></span>Comparador</a>
+      </nav>
+
+      <div class="ticker-wrap">
+        <div class="ticker anim-ticker" id="ticker"></div>
+        <div class="ticker-fade left"></div>
+        <div class="ticker-fade right"></div>
+      </div>
+    </header>
+
+    <main class="container">
+      <section id="inicio" class="section section-hero">
+        <div id="intro-root"></div>
+      </section>
+
+      <section id="taller" class="section">
+        <div class="section-title reveal">
+          <div class="section-title-main">
+            <div class="kicker"><span class="kicker-dot led"></span>modo principal</div>
+            <h2>El taller de <span class="t-amber">pedidos</span></h2>
+            <p class="section-sub">
+              Cada pedido llega con 1-3 requisitos sacados de la ficha técnica. Solo una de las cuatro placas los cumple todos… o
+              ninguna, y entonces toca rechazarlo y fundir el orgullo del cliente.
+            </p>
+          </div>
+          <div class="tags">
+            <span>22 s por pedido</span>
+            <span>3 fusibles</span>
+            <span>teclas 1-4 · R · P</span>
+          </div>
+        </div>
+        <div class="reveal" style="transition-delay: 120ms"><div id="taller-root"></div></div>
+      </section>
+
+      <section id="duelo" class="section">
+        <div class="section-title reveal">
+          <div class="section-title-main">
+            <div class="kicker"><span class="kicker-dot led"></span>segundo modo</div>
+            <h2>Duelo de <span class="t-mint">fichas</span></h2>
+            <p class="section-sub">
+              Dos placas, un atributo, una respuesta: mayor, menor o empate. Cuando te sabes de memoria que las cuatro llevan 2 DIMM
+              o 1 GbE, los empates dejan de ser trampa.
+            </p>
+          </div>
+        </div>
+        <div class="reveal" style="transition-delay: 120ms"><div id="duelo-root"></div></div>
+      </section>
+
+      <section id="fichas" class="section">
+        <div class="section-title reveal">
+          <div class="section-title-main">
+            <div class="kicker"><span class="kicker-dot led"></span>inventario del taller</div>
+            <h2>Las cuatro <span class="t-copper">placas</span> en cuestión</h2>
+            <p class="section-sub">
+              Lo que dice la ficha de cada una en PcComponentes: socket, memoria, almacenamiento, E/S y lo que les falta. Estudiar
+              aquí es subir la puntuación mañana.
+            </p>
+          </div>
+        </div>
+        <div id="fichas-root"></div>
+      </section>
+
+      <section id="comparador" class="section section-last">
+        <div class="section-title reveal">
+          <div class="section-title-main">
+            <div class="kicker"><span class="kicker-dot led"></span>análisis de bancada</div>
+            <h2>Comparador <span class="t-mint">de valor</span></h2>
+            <p class="section-sub">
+              Radar de prestaciones, precio real de catálogo y tabla completa. Activa y desactiva placas para aislar la que te
+              interesa.
+            </p>
+          </div>
+        </div>
+        <div class="reveal" style="transition-delay: 100ms"><div id="comparador-root"></div></div>
+      </section>
+    </main>
+
+    <!-- ---------- pie ---------- -->
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h4 class="footer-title">Fuentes de la bancada</h4>
+          <ul class="sources" id="sources"></ul>
+        </div>
+        <div class="footer-notes">
+          <p>
+            Juego no oficial, hecho con HTML, CSS y JavaScript puros (sin librerías). Ni PcComponentes ni los fabricantes patrocinan
+            ni avalan esta página.
+          </p>
+          <p>
+            Los precios, descuentos y disponibilidad cambian a diario en la tienda: esta partida usa la captura del catálogo que se
+            hizo para construirla. Antes de comprar, comprueba la ficha en la web.
+          </p>
+          <p class="t-dim25">socket cero · v1.0 web · micro ATX para siempre</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- scripts (orden importante: datos → utilidades → módulos → arranque) -->
+    <script src="js/data.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/icons.js"></script>
+    <script src="js/sound.js"></script>
+    <script src="js/engine.js"></script>
+    <script src="js/charts.js"></script>
+    <script src="js/intro.js"></script>
+    <script src="js/taller.js"></script>
+    <script src="js/duelo.js"></script>
+    <script src="js/fichas.js"></script>
+    <script src="js/comparador.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

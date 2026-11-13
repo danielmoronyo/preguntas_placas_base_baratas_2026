@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 246" role="img" aria-label="Esquema de la Gigabyte H610M K V2 DDR5">
+<defs><linearGradient id="pad" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#b06bff" stop-opacity="0.35"/><stop offset="100%" stop-color="#b06bff" stop-opacity="0.06"/></linearGradient></defs>
+<rect x="4" y="4" width="292" height="238" rx="7" fill="#0a2230" stroke="#b06bff" stroke-opacity="0.5" stroke-width="1.5"/>
+<rect x="10" y="10" width="280" height="226" rx="5" fill="url(#pad)"/>
+<circle cx="20" cy="20" r="6.5" fill="none" stroke="#cfa96a" stroke-width="2" opacity="0.8"/><circle cx="20" cy="20" r="2.6" fill="#04100d"/>
+<circle cx="280" cy="20" r="6.5" fill="none" stroke="#cfa96a" stroke-width="2" opacity="0.8"/><circle cx="280" cy="20" r="2.6" fill="#04100d"/>
+<circle cx="20" cy="226" r="6.5" fill="none" stroke="#cfa96a" stroke-width="2" opacity="0.8"/><circle cx="20" cy="226" r="2.6" fill="#04100d"/>
+<circle cx="280" cy="226" r="6.5" fill="none" stroke="#cfa96a" stroke-width="2" opacity="0.8"/><circle cx="280" cy="226" r="2.6" fill="#04100d"/>
+<circle cx="150" cy="226" r="6.5" fill="none" stroke="#cfa96a" stroke-width="2" opacity="0.8"/><circle cx="150" cy="226" r="2.6" fill="#04100d"/>
+<rect x="12" y="34" width="20" height="98" rx="2" fill="#26333a" stroke="#8ea6b3" stroke-opacity="0.5"/>
+<rect x="14" y="42" width="16" height="9" rx="1.5" fill="#cfa96a" opacity="0.75"/>
+<rect x="14" y="60" width="16" height="9" rx="1.5" fill="#5fb8ff" opacity="0.75"/>
+<rect x="14" y="78" width="16" height="9" rx="1.5" fill="#cfa96a" opacity="0.75"/>
+<rect x="14" y="96" width="16" height="9" rx="1.5" fill="#5fb8ff" opacity="0.75"/>
+<rect x="14" y="114" width="16" height="9" rx="1.5" fill="#cfa96a" opacity="0.75"/>
+<rect x="72" y="42" width="66" height="66" rx="3" fill="#0b1a16" stroke="#c9a06a" stroke-width="2"/>
+<g stroke="#b06bff" stroke-opacity="0.35"><line x1="78" y1="48" x2="132" y2="48"/><line x1="78" y1="55" x2="132" y2="55"/><line x1="78" y1="62" x2="132" y2="62"/><line x1="78" y1="69" x2="132" y2="69"/><line x1="78" y1="76" x2="132" y2="76"/><line x1="78" y1="83" x2="132" y2="83"/><line x1="78" y1="90" x2="132" y2="90"/><line x1="78" y1="97" x2="132" y2="97"/><line x1="78" y1="104" x2="132" y2="104"/></g>
+<text x="105" y="126" text-anchor="middle" fill="#b06bff" font-size="11" font-family="IBM Plex Mono, ui-monospace, monospace" letter-spacing="1">LGA 1700</text>
+<g opacity="0.8"><rect x="74" y="22" width="10" height="14" rx="1.5" fill="#3b4a52" stroke="#8ea6b3" stroke-opacity="0.4"/><rect x="87" y="22" width="10" height="14" rx="1.5" fill="#3b4a52" stroke="#8ea6b3" stroke-opacity="0.4"/><rect x="100" y="22" width="10" height="14" rx="1.5" fill="#3b4a52" stroke="#8ea6b3" stroke-opacity="0.4"/><rect x="113" y="22" width="10" height="14" rx="1.5" fill="#3b4a52" stroke="#8ea6b3" stroke-opacity="0.4"/><rect x="126" y="22" width="10" height="14" rx="1.5" fill="#3b4a52" stroke="#8ea6b3" stroke-opacity="0.4"/></g>
+<rect x="166" y="26" width="16" height="112" rx="2" fill="#07130f" stroke="#8ea6b3" stroke-opacity="0.45"/>
+<rect x="168" y="52" width="12" height="4" fill="#b06bff" opacity="0.5"/><rect x="168" y="110" width="12" height="4" fill="#b06bff" opacity="0.5"/>
+<rect x="192" y="26" width="16" height="112" rx="2" fill="#07130f" stroke="#8ea6b3" stroke-opacity="0.45"/>
+<rect x="194" y="52" width="12" height="4" fill="#b06bff" opacity="0.5"/><rect x="194" y="110" width="12" height="4" fill="#b06bff" opacity="0.5"/>
+<text x="224" y="40" fill="#b06bff" font-size="10" font-family="IBM Plex Mono, ui-monospace, monospace" opacity="0.85">DDR5</text>
+<text x="224" y="54" fill="#8ea6b3" font-size="9" font-family="IBM Plex Mono, ui-monospace, monospace" opacity="0.75">128 GB</text>
+<rect x="196" y="150" width="46" height="40" rx="4" fill="#0d1c18" stroke="#b06bff" stroke-opacity="0.6"/>
+<text x="219" y="175" text-anchor="middle" fill="#b06bff" font-size="10" font-family="IBM Plex Mono, ui-monospace, monospace">Intel H610</text>
+<g stroke="#cfa96a" stroke-opacity="0.5" stroke-width="1.1" fill="none"><path d="M138 74 H156 V96 H166"/><path d="M105 108 V140 H186 V168"/><path d="M242 34 V60 H270 V150 H242"/><path d="M196 170 H170 V196 H96"/></g>
+<rect x="60" y="150" width="122" height="12" rx="2" fill="#07130f" stroke="#cfa96a" stroke-opacity="0.7"/><rect x="66" y="153" width="10" height="6" fill="#b06bff" opacity="0.8"/>
+<text x="196" y="160" fill="#b06bff" font-size="9" font-family="IBM Plex Mono, ui-monospace, monospace">PCIe 4.0 x16</text>
+<rect x="60" y="178" width="60" height="9" rx="2" fill="#07130f" stroke="#8ea6b3" stroke-opacity="0.4"/>
+<rect x="136" y="178" width="72" height="9" rx="2" fill="#0b1a16" stroke="#b06bff" stroke-opacity="0.55"/><circle cx="212" cy="182.5" r="2.4" fill="#cfa96a"/>
+<rect x="250" y="198" width="34" height="7" rx="1.5" fill="#132b23" stroke="#cfa96a" stroke-opacity="0.45"/>
+<rect x="250" y="207.5" width="34" height="7" rx="1.5" fill="#132b23" stroke="#cfa96a" stroke-opacity="0.45"/>
+<text x="228" y="232" text-anchor="end" fill="#8ea6b3" font-size="9" font-family="IBM Plex Mono, ui-monospace, monospace" opacity="0.8">2× SATA</text>
+</svg>
